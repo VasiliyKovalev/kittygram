@@ -56,10 +56,3 @@ docker compose exec backend cp -r /app/collected_static/. /backend_static/static
 
 ### После запуска проект будет доступен по адресу:
 http://127.0.0.1:9000/
-```
-POST /api/v1/titles/{title_id}/reviews/{review_id}/comments/
-```
-* Получение данных своей учетной записи.
-```
-GET /api/v1/users/me/
-```
